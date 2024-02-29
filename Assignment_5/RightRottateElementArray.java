@@ -21,11 +21,11 @@ public class RightRottateElementArray {
 		int count=s.nextInt();
 		int temp=0;
 		for(int C=0;C<count;C++) {
-			temp=array[0];
-			for(int index=1;index<Length;index++) {
-				array[index-1]=array[index];
+			temp=array[Length-1];
+			for(int index=Length-1;index>0;index--) {
+				array[index]=array[index-1];
 			}
-			array[Length-1]=temp;
+			array[0]=temp;
 		}
 		System.out.println("\nArray after change ");
 		for(int index=0;index<Length;index++) {
