@@ -8,17 +8,17 @@ public class MathOperations {
 		operation.add(7000L, 8000L);
 		operation.add(300.50, 400.50);
 		
-		operation.subtract(10, 20);
-		operation.subtract(7000L, 8000L);
-		operation.subtract(300.50, 400.50);
+		operation.subtract(20, 10);
+		operation.subtract(8000L, 7000L);
+		operation.subtract(500.50, 400.90);
 		
 		operation.multiply(10, 20);
 		operation.multiply(7000L, 8000L);
-		operation.multiply(300.50, 400.50);
+		operation.multiply(100.50, 20.50);
 		
-		operation.divide(10, 20);
-		operation.divide(7000L, 8000L);
-		operation.divide(300.50, 400.50);
+		operation.divide(50, 15);
+		operation.divide(35000L, 500L);
+		operation.divide(500.50, 50.50);
 		
 		operation.modulo(10, 20);
 		operation.modulo(7000L, 8000L);
