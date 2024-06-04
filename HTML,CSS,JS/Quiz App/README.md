@@ -1,11 +1,10 @@
-##Quiz App feature:##
+## Quiz App feature:
 
  - We take a quiz.
  - Questions with multiple options.
  - When choosing the answer and clicking the next or submit button, it shows whether your answer is correct or not.
  - At the end of the quiz, your score will be displayed.
- - 
- - <br/>
+   <br/>
  **screen shot**
 
    ![Screenshot (24)](https://github.com/sakthiaj29/Assignment/assets/159148814/56899ae8-0205-4393-93e4-e81fab161a16)
